@@ -328,32 +328,32 @@ http://ec2-18-207-129-7.compute-1.amazonaws.com:8080
    ```bash
    curl http://ec2-18-207-129-7.compute-1.amazonaws.com:8080/hello
    ```
-   ![img9](docs\img\image-9.png)
-   ![img10](docs\img\image-10.png)
+   ![img9](docs/img/image-9.png)
+   ![img10](docs/img/image-10.png)
 
    ```bash
    curl http://ec2-18-207-129-7.compute-1.amazonaws.com:8080/pi
    ```
-   ![img11](docs\img\image-11.png)
-   ![img12](docs\img\image-12.png)
+   ![img11](docs/img/image-11.png)
+   ![img12](docs/img/image-12.png)
 
    ```bash
    curl http://ec2-18-207-129-7.compute-1.amazonaws.com:8080/greeting
    ```
-   ![img13](docs\img\image-13.png)
-   ![img14](docs\img\image-14.png)
+   ![img13](docs/img/image-13.png)
+   ![img14](docs/img/image-14.png)
 
    ```bash
    curl http://ec2-18-207-129-7.compute-1.amazonaws.com:8080/greeting?name=Maria
    ```
-   ![img15](docs\img\image-15.png)
-   ![img16](docs\img\image-16.png)
+   ![img15](docs/img/image-15.png)
+   ![img16](docs/img/image-16.png)
 
    ```bash
    curl http://ec2-18-207-129-7.compute-1.amazonaws.com:8080/index.html
    ```
-   ![img17](docs\img\image-17.png)
-   ![img18](docs\img\image-18.png)
+   ![img17](docs/img/image-17.png)
+   ![img18](docs/img/image-18.png)
 
 
 ## Tecnologías Usadas
