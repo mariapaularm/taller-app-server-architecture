@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroSpringBoot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .endpoints {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .endpoint {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        .endpoint a {
+            color: #667eea;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        .endpoint a:hover {
+            text-decoration: underline;
+        }
+        .endpoint .description {
+            color: #666;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        img {
+            max-width: 100px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MicroSpringBoot</h1>
+        <p class="subtitle">Un framework mínimo de IoC que utiliza Java Reflection</p>
+        
+        <div class="endpoints">
+            <h3>Endpoints disponibles:</h3>
+            
+            <div class="endpoint">
+                <a href="/">/</a>
+                <div class="description">Returns a greeting message</div>
+            </div>
+            
+            <div class="endpoint">
+                <a href="/hello">/hello</a>
+                <div class="description">Returns "Greetings from Spring Boot!"</div>
+            </div>
+            
+            <div class="endpoint">
+                <a href="/pi">/pi</a>
+                <div class="description">Returns the value of PI</div>
+            </div>
+            
+            <div class="endpoint">
+                <a href="/greeting">/greeting</a>
+                <div class="description">Returns "Hola World" (default)</div>
+            </div>
+            
+            <div class="endpoint">
+                <a href="/greeting?name=Maria">/greeting?name=Maria</a>
+                <div class="description">Returns "Hola Maria" (with @RequestParam)</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Built with Java 21 | Reflection API | Custom Annotations</p>
+            <p>University Assignment - Web Server with IoC Framework</p>
+        </div>
+    </div>
+</body>
+</html>
